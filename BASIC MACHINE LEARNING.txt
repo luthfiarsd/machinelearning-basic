@@ -1,0 +1,21 @@
+BASIC MACHINE LEARNING!
+
+1. Data collecting
+Cari data yang dibutuhkan, bisa dari kaggle dst. Data di sini masih berbentuk data kasar dan belum dibersihkan
+
+2. Data cleaning
+Membersihkan data dari missing value, inconsistent format, duplicated data, unscaled data, dan skewness distribution (distribusi data ga seimbang).
+
+3. Data preparation
+Menyiapkan data sebelum diolah, membersihkan dengan spesifik. 
+
+3a) Teknik memanipulasi outlier (dibahas di course visualisasi data dicoding)
+
+3b) Normalisasi data
+Mengubah nilai dalam skala yang sama. Misal gaji dan umur => gaji 1jt umur 23, memiliki selisih yang sangat jauh, maka dibuat min-max scaling 0-1
+
+3c) Standardisasi
+Mirip dengan normalisasi mengubah nilai dalam skala yg sama, dengan rumus => (setiap nilai pada sebuah atribut numerik akan dikurangi dengan rata-rata dan dibagi dengan standar deviasi dari seluruh nilai pada sebuah kolom atribut)
+
+3d) Split data untuk learning dan testing
+
